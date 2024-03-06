@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('./asset/font/Poppins-Light.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+   
+}
+body{
+    background-color: rgb(197, 238, 140);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.container{
+    width: 400px;
+    background-color: rgb(232, 232, 232);
+    padding: 20px;
+    border-radius: 5px;
+}
+.container textarea,button{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    
+}
+.container textarea{
+    height: 100px;
+    padding: 5px;
+
+}
+.container button{
+    background-color:rgb(197, 238, 140); 
+    margin-top: 30px;
+    padding: 10px 0;
+    cursor: pointer;
+}
